@@ -80,6 +80,7 @@ class RegistrationForm extends React.Component{
           <Label for='phone'>Phone: </Label>
           <Input type='text' name='phone' onChange={this.onChange} value={this.state.phone === null ? '' : this.state.phone} placeholder='07123234533'/>
         </FormGroup>
+        <Button>Send</Button>
       </Form>
     )
   }
